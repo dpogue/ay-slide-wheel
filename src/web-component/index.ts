@@ -1,4 +1,4 @@
-import {SlideWheel} from '../slide-wheel';
+import {SlideWheel} from '../slide-wheel/slide-wheel';
 
 export class AySlideWheel extends HTMLElement {
   constructor() {

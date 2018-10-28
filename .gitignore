@@ -8,5 +8,6 @@ coverage
 demo/generated/
 /angular/
 /web-component/
+/slide-wheel/
 node_modules
 tmp

@@ -1,6 +1,6 @@
 import * as angular from 'angular';
 import { auto, IScope, IAugmentedJQuery, IAttributes} from 'angular';
-import { SlideWheel } from '../slide-wheel';
+import { SlideWheel } from '../slide-wheel/slide-wheel';
 
 const modName = 'aySlideWheel';
 

@@ -12,6 +12,8 @@
   },
   "files": [
     "angular",
+    "web-component",
+    "slide-wheel",
     "less"
   ],
   "dependencies": {},
