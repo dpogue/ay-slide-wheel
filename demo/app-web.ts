@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const update = document.querySelector('#currentVal');
   update.textContent = "0";
   elem.addEventListener('onChange', (evt: CustomEvent) => {
-    update.textContent = evt.detail.value.toString();
+    update.textContent = evt.detail.toString();
   });
 });
 

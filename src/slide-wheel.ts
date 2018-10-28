@@ -108,7 +108,7 @@ export function SlideWheel(element: HTMLElement, onChange, value: number, enable
         // });
 
         if (onChange) {
-          onChange({ value: newval });
+          onChange(newval);
         }
       }
     }
