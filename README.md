@@ -1,5 +1,7 @@
 # Slide Wheel Component
 
+[![Build Status](https://travis-ci.com/AyogoHealth/ay-slide-wheel.svg?branch=master)](https://travis-ci.org/AyogoHealth/ay-slide-wheel)
+
 This is an AngularJS 1.x directive which renders a slide wheel in canvas.
 
 ## Installation
@@ -39,4 +41,5 @@ Please note that this project is released with a [Contributor Code of Conduct](h
 ## Licence
 
 Released under the MIT Licence.
+
 Copyright © 2018 Ayogo Health Inc.

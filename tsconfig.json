@@ -10,7 +10,7 @@
       "moduleResolution": "node",
       "experimentalDecorators": true,
       "noLib": false,
-      "rootDir": "src",
+      "rootDirs": ["src", "demo"],
       "outDir": "",
       "sourceMap": true,
       "inlineSources": true,
