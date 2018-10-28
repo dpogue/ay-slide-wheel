@@ -4,10 +4,7 @@ import { auto, IScope, IAugmentedJQuery, IAttributes,
 
 const modName = 'aySlideWheel';
 
-const template = `
-<div class="slide-wheel">
-  <canvas class="slide-wheel-canvas"></canvas>
-</div>`;
+const template = '<canvas class="slide-wheel-canvas"></canvas>';
 
 export class AySlideWheel {
   enabled = true;

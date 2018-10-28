@@ -5,9 +5,8 @@
 *.swp
 npm-debug.log
 coverage
-demo/generated/*
-demo/assets/icons.svg
+demo/generated/
 /angular/
+/web-component/
 node_modules
 tmp
-reports
