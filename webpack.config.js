@@ -2,10 +2,12 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.mjs', '.js', '.json']
   },
-  entry: './demo/app.ts',
+  entry: {
+    angular: './demo/app-angular.ts',
+    web: './demo/app-web.ts'
+  },
   output: {
     path: __dirname + '/demo/generated',
-    filename: 'app.js',
     devtoolModuleFilenameTemplate: "[absolute-resource-path]"
   },
   mode: 'development',
