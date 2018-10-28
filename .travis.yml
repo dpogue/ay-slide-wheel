@@ -1,3 +1,22 @@
 language: node_js
 node_js:
   - "10"
+
+sudo: false
+
+branches:
+  only:
+  - master
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run demo:build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  local-dir: demo
+  on:
+    branch: master
