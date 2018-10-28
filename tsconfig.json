@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "es6",
+      "declaration": true,
+      "noImplicitAny": false,
+      "removeComments": false,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "noLib": false,
+      "outDir": "dist",
+      "sourceMap": true,
+      "inlineSources": true,
+      "stripInternal": true,
+      "pretty": true,
+      "importHelpers": true,
+      "noEmitHelpers": true,
+      "skipLibCheck": true,
+      "lib": ["es5","dom","es2015.promise","es2015.collection","es2015.iterable","es2015.symbol","es2015.symbol.wellknown"]
+    },
+    "include": [
+      "./src/**/*.ts",
+      "./demo/**/*.ts"
+    ]
+}

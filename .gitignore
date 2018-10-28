@@ -1,0 +1,13 @@
+.DS_Store
+.#*
+.idea
+*~
+*.swp
+npm-debug.log
+coverage
+demo/generated/*
+demo/assets/icons.svg
+/angular/
+node_modules
+tmp
+reports
