@@ -1,5 +1,4 @@
 import * as angular from 'angular';
-import 'canvas-prebuilt';
 import 'angular-mocks';
 
 import { mock, auto, IScope, IAugmentedJQuery,
