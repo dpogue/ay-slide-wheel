@@ -1,0 +1,32 @@
+# Copyright 2019 Ayogo Health Inc.
+
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - '*'
+
+jobs:
+  test:
+    name: 'Tests'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Use NodeJS 12
+        uses: actions/setup-node@v1
+        with:
+          version: 12
+
+      - name: npm ci
+        run: npm ci
+
+      - name: npm test
+        run: npm test
+
+      - name: demo build
+        run: npm run demo:build
